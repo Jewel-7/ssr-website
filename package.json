@@ -17,6 +17,7 @@
     "react": "^17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0",
+    "react-slideshow-image": "^3.4.3",
     "social-media-icons-react": "^1.1.2"
   }
 }

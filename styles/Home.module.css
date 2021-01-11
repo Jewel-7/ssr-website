@@ -214,3 +214,46 @@
 .icon {
   margin-left: 45vw;
 }
+
+.each-slide1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+  height: 150vh;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 3vw;
+}
+.each-slide2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+  height: 90vh;
+  background-repeat: no-repeat;
+  margin-top: 20vh;
+  margin-left: 6vw;
+}
+.each-slide3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+  height: 77vh;
+  margin-top: 1vh;
+  background-repeat: no-repeat;
+
+  margin-left: 12vw;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.slide {
+  background-color: blanchedalmond;
+  height: 78vh;
+}
