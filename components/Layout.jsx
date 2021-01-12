@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Navigation from "./Navigation";
 // import EmployeeCard from "../components/EmployeeCard";
 const Layout = (props) => {

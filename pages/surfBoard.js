@@ -1,8 +1,10 @@
 import axios from "axios";
 import { Component } from "react";
+import Link from "next/link";
 import Navigation from "../components/Navigation";
-import EmployeeCard from "../components/EmployeeCard";
+import CompanyPage from "../components/CompanyPage";
 import Footer from "../components/Footer";
+import styles from "../styles/Home.module.css";
 
 const url = "https://heroku-json-data-server.herokuapp.com/companies";
 
@@ -21,8 +23,15 @@ class Users extends Component {
 
         {this.props.users.map((user) => {
           // return <p key={user.id}>{user.name}</p>;
-          return <EmployeeCard key={user.id} user={user} />;
+          return <CompanyPage key={user.id} user={user} />;
         })}
+        <h1 className={styles["des-head"]}>Our Employees</h1>
+        <p className={styles["description1"]}>
+          {" "}
+          <Link href="/surfList">
+            <p>---- Click Here -------</p>
+          </Link>
+        </p>
         <Footer />
       </div>
     );

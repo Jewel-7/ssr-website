@@ -4,7 +4,7 @@ import Link from "next/link";
 
 // import { SocialMediaIconsReact } from "social-media-icons-react";
 
-function EmployeeCard(props) {
+function CompanyPage(props) {
   let { user } = props;
   return (
     <div className={styles["card-container"]}>
@@ -20,4 +20,4 @@ function EmployeeCard(props) {
   );
 }
 
-export default EmployeeCard;
+export default CompanyPage;
