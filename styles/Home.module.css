@@ -215,31 +215,35 @@
   margin-left: 45vw;
 }
 
-.each-slide1 > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-size: cover; */
+.each-slide1 {
   height: 78vh;
   background-repeat: no-repeat;
   margin-top: 1vh;
   margin-left: 3vw;
 }
-.each-slide2 > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.slide-image1 {
+  height: 70vh;
+  width: 85vw;
+}
+.slide-image2 {
+  height: 70vh;
+  width: 70vw;
+  margin-left: 1vw;
+}
+.slide-image3 {
+  height: 70vh;
+  width: 60vw;
+  margin-right: 7vw;
+}
+.each-slide2 {
+  /* background-image: url("https://media-exp1.licdn.com/dms/image/C4D1BAQGORgdnW9tgiQ/company-background_10000/0/1591965978994?e=2159024400&v=beta&t=muB5jWIpPh0BlE8Qn64yp7s-jcGSD8-W0VAMs5VGzWE"); */
+
   /* background-size: cover; */
   height: 78vh;
-  background-repeat: no-repeat;
-  margin-top: 20vh;
+
   margin-left: 6vw;
 }
-.each-slide3 > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-size: cover; */
+.each-slide3 {
   height: 74vh;
   margin-top: 1vh;
   background-repeat: no-repeat;
@@ -290,4 +294,80 @@
   margin-bottom: 1vh;
   margin-left: 10vw;
   margin-right: 10vw;
+}
+@media (max-width: 1200px) {
+  .navigation {
+    margin-left: 50vw;
+  }
+  .each-slide1 {
+    width: 600px;
+  }
+}
+
+@media (max-width: 760px) {
+  .navigation {
+    margin-left: 30vw;
+  }
+  .slide-image1,
+  .slide-image2,
+  .slide-image3 {
+    width: 60vw;
+  }
+  .image {
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid white;
+  }
+  .company,
+  .name {
+    font-size: 15px;
+  }
+  .emp-back {
+    /* background-color: blanchedalmond;
+  border: 2px black solid;
+  margin-top: 1vh;
+  margin-bottom: 1vh; */
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .navigation {
+    margin-left: 0vw;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .slide-image1 {
+    margin-right: 200vw;
+    margin-left: 10vw;
+    height: 60vh;
+    margin-top: 5vh;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .company,
+  .name {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .last-con {
+    margin-right: 2vw;
+  }
+  .nav-link {
+    font-size: 10px;
+  }
+  .image {
+    height: 17vh;
+    width: 17vw;
+    border: 2px solid white;
+  }
+  .company,
+  .name {
+    font-size: 12px;
+  }
 }
