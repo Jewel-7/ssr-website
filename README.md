@@ -1,16 +1,28 @@
 Simple Server-Side-Rendering Website Made by using Next.js
 
 It consits of a Home Page With Navbar And footer
+
+
 Navbar consists navlink to render between pages like Raw ,Contentstack,Surfboard
+
+
 Sliders are used For sliding the banner image 
 
 
 ## To Run On Local Machine 
+
 Go to terminal and type git clone
+
+
 After cloning do npm install
+
+
 After installing all the dependencies do npm run dev
 
+
 ## Live Link Demo
+
+
 https://ssr-website-nine.vercel.app/
 
 
