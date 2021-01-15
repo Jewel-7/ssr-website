@@ -20,7 +20,7 @@ After cloning do npm install
 After installing all the dependencies do npm run dev
 
 
-## Live Link Demo
+## Live Link 
 
 
 https://ssr-website-nine.vercel.app/
