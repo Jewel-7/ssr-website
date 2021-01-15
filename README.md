@@ -8,6 +8,8 @@ Navbar consists navlink to render between pages like Raw ,Contentstack,Surfboard
 
 Sliders are used For sliding the banner image 
 
+Data is fetched from a backend server that was hosted in heroku
+
 
 ## To Run On Local Machine 
 
