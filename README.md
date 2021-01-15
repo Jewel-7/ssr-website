@@ -11,7 +11,7 @@ Sliders are used For sliding the banner image
 
 ## To Run On Local Machine 
 
-Go to terminal and type git clone
+Go to terminal and type git clone https://github.com/Jewel-7/ssr-website.git
 
 
 After cloning do npm install
