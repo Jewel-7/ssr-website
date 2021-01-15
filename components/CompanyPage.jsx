@@ -1,8 +1,5 @@
-// import styles from "./EmployeCard.module.css";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-
-// import { SocialMediaIconsReact } from "social-media-icons-react";
 
 function CompanyPage(props) {
   let { user } = props;

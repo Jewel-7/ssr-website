@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Slide } from "react-slideshow-image";
 import styles from "../styles/Home.module.css";
 import "react-slideshow-image/dist/styles.css";
@@ -7,9 +6,6 @@ import "react-slideshow-image/dist/styles.css";
 const properties = {
   duration: 2000,
   transitionDuration: 800,
-  //   infinite: true,
-  //   indicators: true,
-  //   arrows: true,
 };
 
 const Slideshow = () => {

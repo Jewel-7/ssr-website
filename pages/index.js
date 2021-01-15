@@ -8,16 +8,9 @@ import Navigation from "../components/Navigation";
 export default function Home() {
   return (
     <div className={styles["index-cont"]}>
-      {/* <Layout /> */}
       <Navigation />
       <Slides />
-      {/* <h1 className={styles["des-head"]}>About Raw Enginering</h1>
-      <div className={styles["description"]}></div>
-      <h1 className={styles["des-head"]}>About Surfboard</h1>
-      <div className={styles["description"]}></div>
-      <h1 className={styles["des-head"]}>About Us</h1>
-      <div className={styles["description"]}></div>
-      <h1></h1> */}
+
       <Footer />
     </div>
   );
