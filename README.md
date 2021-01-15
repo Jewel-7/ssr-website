@@ -1,3 +1,20 @@
+Simple Server-Side-Rendering Website Made by using Next.js
+
+It consits of a Home Page With Navbar And footer
+Navbar consists navlink to render between pages like Raw ,Contentstack,Surfboard
+Sliders are used For sliding the banner image 
+
+
+## To Run On Local Machine 
+Go to terminal and type git clone
+After cloning do npm install
+After installing all the dependencies do npm run dev
+
+## Live Link Demo
+https://ssr-website-nine.vercel.app/
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +49,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
