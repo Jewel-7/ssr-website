@@ -6,8 +6,6 @@ import CompanyPage from "../components/CompanyPage";
 import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 
-/ const url = "https://heroku-json-data-server.herokuapp.com/companies";
-
 class Users extends Component {
   render() {
     return (
