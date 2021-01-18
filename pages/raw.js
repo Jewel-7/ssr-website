@@ -17,7 +17,7 @@ class Users extends Component {
         {this.props.users.map((user) => {
           return <CompanyPage key={user.id} user={user} />;
         })}
-        <h1 className={styles["des-head"]}>Our Employees</h1>
+        <h1 className={styles["des-head"]}>Our Employee</h1>
         <p className={styles["description1"]}>
           {" "}
           <Link href="/rawList">
