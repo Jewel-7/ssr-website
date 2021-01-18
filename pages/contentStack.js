@@ -6,8 +6,6 @@ import Navigation from "../components/Navigation";
 import CompanyPage from "../components/CompanyPage";
 import Footer from "../components/Footer";
 
-const url = "https://heroku-json-data-server.herokuapp.com/companies";
-
 class Users extends Component {
   render() {
     return (
@@ -32,11 +30,13 @@ class Users extends Component {
 }
 
 export const getStaticProps = async () => {
-  let { data } = await axios.get(url);
+  let { data } = await axios.get(
+    "https://heroku-json-data-server.herokuapp.com/companies/3"
+  );
 
   return {
     props: {
-      users: [data[2]],
+      users: [data],
     },
   };
 };
